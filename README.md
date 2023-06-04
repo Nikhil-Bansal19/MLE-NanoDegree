@@ -22,7 +22,7 @@ The pipeline architecture consists of a python training script (train.py), a tab
 
 ![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/dc5e5c13-f563-44cf-85e3-108ee2af82f6)
 
-## Dataset
+### Dataset
 The dataset was programmatically (using the train.py script) downloaded from the web, split into train and test sets using Sckit-learn train_test_split utility
 
 ### Benefits of the parameter sampler chosen
@@ -30,6 +30,8 @@ The random parameter sampler for HyperDrive supports discrete and continuous hyp
 
 ### Benefits of the early stopping policy chosen
 The early termination policy BanditPolicy for HyperDrive automatically terminates poorly performing runs and improves computational efficiency. It is based on slack factor/slack amount and evaluation interval and cancels runs where the primary metric is not within the specified slack factor/slack amount compared to the best performing run.
+
+Best run metrics : {'Regularization Strength:': 10.0, 'Max iterations:': 150, 'Accuracy': 0.9061665452779801}
 
 ## AutoML
 The AutoML run was executed with this AutoMLConfig settings:
