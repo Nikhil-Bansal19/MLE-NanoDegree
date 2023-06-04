@@ -55,13 +55,17 @@ def main():
     # Data is located at:
     # "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
 
-    ds = ### YOUR CODE HERE ###
+
+    data_url = "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
+    ds = TabularDatasetFactory.from_delimited_files(data_url)
+
     
     x, y = clean_data(ds)
 
     # TODO: Split data into train and test sets.
 
     ### YOUR CODE HERE ###a
+    x_train, x_test, y_train, y_test = train_test_split(x, y, stratify=y, random_state=42)
 
     model = LogisticRegression(C=args.C, max_iter=args.max_iter).fit(x_train, y_train)
 
