@@ -30,7 +30,6 @@ The random parameter sampler for HyperDrive supports discrete and continuous hyp
 
 ### Benefits of the early stopping policy chosen
 The early termination policy BanditPolicy for HyperDrive automatically terminates poorly performing runs and improves computational efficiency. It is based on slack factor/slack amount and evaluation interval and cancels runs where the primary metric is not within the specified slack factor/slack amount compared to the best performing run.
-**What are the benefits of the early stopping policy you chose?**
 
 ## AutoML
 The AutoML run was executed with this AutoMLConfig settings:
