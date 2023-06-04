@@ -69,7 +69,7 @@ Here are some AutoML generated visual explanations and metrics:
 <img width="554" alt="Screenshot 2023-06-04 at 9 14 08 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/cd369d60-50ef-41c0-bada-59e88ece1f94">
 <img width="778" alt="Screenshot 2023-06-04 at 9 14 33 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/6e90178e-e0f7-483f-9c82-783cd311d50d">
 <img width="590" alt="Screenshot 2023-06-04 at 9 15 04 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/2c3cb76d-714e-4e05-9f33-c0df0fe3ba4d">
-![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/081864d0-8b00-470a-ada9-94c301570a11)
+![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/4e1325ff-446a-4fc6-8f12-45b6f3dee942)
 <img width="505" alt="Screenshot 2023-06-04 at 9 27 25 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/50686522-f3a5-4284-849d-d2e69b3905ac">
 <img width="500" alt="Screenshot 2023-06-04 at 9 28 09 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/9267e9bc-e8ed-4cd8-94c4-4c6d915ab74c">
 <img width="501" alt="Screenshot 2023-06-04 at 9 27 34 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/0d888474-aad0-4c4c-b6f1-f0e119688683">
