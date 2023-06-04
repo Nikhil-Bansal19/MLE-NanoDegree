@@ -20,7 +20,7 @@ The best performing model is an ensemble model VotingEnsemble produced by the Au
 ## Scikit-learn Pipeline
 The pipeline architecture consists of a python training script (train.py), a tabular dataset downloaded from UCI ML Repository, a Scikit-learn Logistic Regression Algorithm connected to the Azure HyperDrive, a hyperparameter tuning engine, to produce a HyperDrive classifier. The training run was orchestrated by a Jupyter Notebook hosted on a compute instance. The diagram below (Image credit: Udacity MLEMA Nanodegree) presents a logical view of the architecture.
 
-![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/d872119b-e159-403c-b4a9-25f1aff754fb)
+![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/dc5e5c13-f563-44cf-85e3-108ee2af82f6)
 
 ## Dataset
 The dataset was programmatically (using the train.py script) downloaded from the web, split into train and test sets using Sckit-learn train_test_split utility
