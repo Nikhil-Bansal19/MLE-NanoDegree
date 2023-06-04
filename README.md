@@ -51,37 +51,38 @@ Best run metrics :
 
 ## Pipeline comparison
 The HyperDrive assisted Scikit-learn LogicRegression model produced a top accuracy of 90.61% as shown below:
+![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/01c324a4-06f2-44fa-995c-2b869a4117bc)
+![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/ff82d2ec-f00d-441e-860e-2a512b9b5b41)
 
-<img width="588" alt="Screenshot 2023-06-04 at 9 35 22 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/a25d84b4-7abf-4867-94f9-fa477ffccba6">
-<img width="1196" alt="Screenshot 2023-06-04 at 8 27 02 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/35cced0e-3e23-4d95-b3e3-02888ba1e02a">
 
 The AutoML generated VotingEnsemble model yielded a top accuracy of 91.80% as shown below
-<img width="1189" alt="Screenshot 2023-06-04 at 9 11 23 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/0ea0baa0-c3d3-4385-a133-8c8661a0c605">
+<img width="1189" alt="Screenshot 2023-06-04 at 9 11 23 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/da7a115b-7113-4495-8228-6e218e84fe33">
+
 
 HyperDrive performed way faster than AutoML
-![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/fe134b9e-0820-4659-861e-67a19ca05660)
+<img width="1169" alt="Screenshot 2023-06-04 at 9 36 37 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/355cd5c0-443c-4d1b-b3d1-136142330770">
 
 
 The difference in accuracy is small. However, architectuarally, there is a difference between the two. To use HyperDrive, a custom-coded machine learning model is required. Whereas to utilize AutoML, one only needs to select some paramters for AutoML config and AutoML does the rest. Additionally, AutoML offers model interpretation which is useful in understanding why a model made a certain prediction as well as getting an idea of the importance of individual features for tasks.
 
+
 Here are some AutoML generated visual explanations and metrics:
-<img width="554" alt="Screenshot 2023-06-04 at 9 14 08 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/cd369d60-50ef-41c0-bada-59e88ece1f94">
-<img width="778" alt="Screenshot 2023-06-04 at 9 14 33 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/6e90178e-e0f7-483f-9c82-783cd311d50d">
-<img width="590" alt="Screenshot 2023-06-04 at 9 15 04 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/2c3cb76d-714e-4e05-9f33-c0df0fe3ba4d">
-![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/4e1325ff-446a-4fc6-8f12-45b6f3dee942)
-<img width="505" alt="Screenshot 2023-06-04 at 9 27 25 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/50686522-f3a5-4284-849d-d2e69b3905ac">
-<img width="500" alt="Screenshot 2023-06-04 at 9 28 09 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/9267e9bc-e8ed-4cd8-94c4-4c6d915ab74c">
-<img width="501" alt="Screenshot 2023-06-04 at 9 27 34 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/0d888474-aad0-4c4c-b6f1-f0e119688683">
-<img width="502" alt="Screenshot 2023-06-04 at 9 27 45 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/2f6f49c3-b069-4c4c-8612-bc9cbc962443">
+<img width="554" alt="Screenshot 2023-06-04 at 9 14 08 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/b6fcab6f-d15f-4956-8ff1-a01057161201">
+<img width="778" alt="Screenshot 2023-06-04 at 9 14 33 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/89c9f61f-f1e1-4f22-9dbd-555030ef3e95">
+<img width="590" alt="Screenshot 2023-06-04 at 9 15 04 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/bf86b234-d859-45a8-b03c-92f9172804c3">
+<img width="762" alt="Screenshot 2023-06-04 at 9 18 02 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/570429cc-4cf5-477e-a4fe-535c08ed8e16">
+<img width="505" alt="Screenshot 2023-06-04 at 9 27 25 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/4d39cd94-e0c2-4368-88fa-b8b195de9d51">
+<img width="501" alt="Screenshot 2023-06-04 at 9 27 34 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/b0a3b9aa-3fde-41cf-a004-4e8a70650b22">
+<img width="502" alt="Screenshot 2023-06-04 at 9 27 45 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/56362d72-f21b-4192-94ee-b02792f4ec9b">
+<img width="500" alt="Screenshot 2023-06-04 at 9 28 09 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/e46723cc-5ac1-4d60-a76f-0a2eb0a527c4">
 
 
-It also talked about the data imbalance present in Data Guardrails section
-<img width="1212" alt="Screenshot 2023-06-04 at 8 45 39 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/919d210f-19e9-4599-a2e3-c5ce754ce75b">
+It also talked about the data imbalance present in Data Guardrails section:
+<img width="1212" alt="Screenshot 2023-06-04 at 8 45 39 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/f720cf73-e745-4232-a1c0-a1186d4f9e68">
 
 
-Also the pipeline used by AutoML
-![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/8642f958-0449-45d9-8cab-51fe4a598f39)
-
+Also the pipeline used by AutoML:
+<img width="1151" alt="Screenshot 2023-06-04 at 9 18 38 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/fea52d1f-5bf2-4c2f-a231-f8acf114789a">
 
 
 ## Future work
@@ -89,5 +90,5 @@ Also the pipeline used by AutoML
 2) In AutoML, based on the Guardrails details, we can try to minimize the bias of data. The model tend to perform better on a balanced dataset.
 
 ## Proof of cluster clean up
-![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/8671b860-a315-4aed-b930-7878808f64fc)
+<img width="415" alt="Screenshot 2023-06-04 at 9 31 51 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/04e79f41-69e7-499c-9074-fb6b1bdc06f2">
 
