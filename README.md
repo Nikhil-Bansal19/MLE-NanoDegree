@@ -13,15 +13,23 @@ This model is then compared to an Azure AutoML run.
 
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+The Bank Marketing dataset from UCI ML Repository, contains demographic data of bank clients and their responses (Yes or No) to direct phone marketing campaigns of direct term deposit products. The classification goal is to predict if the client will subscribe a term deposit. Therefore the input variables are columns representing client demographics and the output variable is the y column representing has the client subscribed to a term deposit (binary Yes or No).
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+The best performing model is an ensemble model VotingEnsemble produced by the AutomML run. It has an accuracy rate of 91.803% vs 90.61% by the HyperDrive assisted Scikit-learn LogicRegression model.
 
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+The pipeline architecture consists of a python training script (train.py), a tabular dataset downloaded from UCI ML Repository, a Scikit-learn Logistic Regression Algorithm connected to the Azure HyperDrive, a hyperparameter tuning engine, to produce a HyperDrive classifier. The training run was orchestrated by a Jupyter Notebook hosted on a compute instance. The diagram below (Image credit: Udacity MLEMA Nanodegree) presents a logical view of the architecture.
 
-**What are the benefits of the parameter sampler you chose?**
+![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/d872119b-e159-403c-b4a9-25f1aff754fb)
 
+## Dataset
+The dataset was programmatically (using the train.py script) downloaded from the web, split into train and test sets using Sckit-learn train_test_split utility
+
+# Benefits of the parameter sampler chosen
+The random parameter sampler for HyperDrive supports discrete and continuous hyperparameters, as well as early termination of low-performance runs. It is simple to use, eliminates bias and increases the accuracy of the model.
+
+# Benefits of the early stopping policy chosen
+The early termination policy BanditPolicy for HyperDrive automatically terminates poorly performing runs and improves computational efficiency. It is based on slack factor/slack amount and evaluation interval and cancels runs where the primary metric is not within the specified slack factor/slack amount compared to the best performing run.
 **What are the benefits of the early stopping policy you chose?**
 
 ## AutoML
