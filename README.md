@@ -53,8 +53,7 @@ Best run metrics :
 The HyperDrive assisted Scikit-learn LogicRegression model produced a top accuracy of 90.61% as shown below:
 
 <img width="588" alt="Screenshot 2023-06-04 at 9 35 22 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/a25d84b4-7abf-4867-94f9-fa477ffccba6">
-![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/093a393a-7171-417e-a375-461f75f7959d)
-
+<img width="1196" alt="Screenshot 2023-06-04 at 8 27 02 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/35cced0e-3e23-4d95-b3e3-02888ba1e02a">
 
 The AutoML generated VotingEnsemble model yielded a top accuracy of 91.80% as shown below
 <img width="1189" alt="Screenshot 2023-06-04 at 9 11 23 PM" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/0ea0baa0-c3d3-4385-a133-8c8661a0c605">
