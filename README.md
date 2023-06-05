@@ -36,6 +36,10 @@ Encoding a number of other categorical variables.
 Encoding months of the year.
 Encoding the target variable.
 
+We can also generate data profile to look at feature metrics indivdually like this:
+<img width="1130" alt="image" src="https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/46be0dde-31a9-4f83-90e3-9389ccfd36ea">
+
+
 The classification method used here is logistic regression. Logistic regression uses a fitted logistic function and a threshold. The parameters available within the training script are C (which indicates the regularization strength i.e. preference for sparser models) and maximum number of iterations.
 
 ### Benefits of the parameter sampler chosen
