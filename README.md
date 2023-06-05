@@ -14,6 +14,7 @@ This model is then compared to an Azure AutoML run.
 
 ## Summary
 The Bank Marketing dataset from UCI ML Repository, contains demographic data of bank clients and their responses (Yes or No) to direct phone marketing campaigns of direct term deposit products. The classification goal is to predict if the client will subscribe a term deposit. Therefore the input variables are columns representing client demographics and the output variable is the y column representing has the client subscribed to a term deposit (binary Yes or No).
+Data is fetched from here: https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv
 
 The best performing model is an ensemble model VotingEnsemble produced by the AutomML run. It has an accuracy rate of 91.803% vs 90.61% by the HyperDrive assisted Scikit-learn LogicRegression model.
 
@@ -24,7 +25,7 @@ The pipeline architecture consists of a python training script (train.py), a tab
 
 ### Dataset
 The dataset was programmatically (using the train.py script) downloaded from the web, split into train and test sets using Sckit-learn train_test_split utility.
-The Bank Marketing dataset from UCI ML Repository, contains demographic data of bank clients and their responses (Yes or No) to direct phone marketing campaigns of direct term deposit products. The classification goal is to predict if the client will subscribe a term deposit. Therefore the input variables are columns representing client demographics ( and the output variable is the y column representing has the client subscribed to a term deposit (binary Yes or No).
+The Bank Marketing dataset from UCI ML Repository, contains demographic data of bank clients and their responses (Yes or No) to direct phone marketing campaigns of direct term deposit products. The classification goal is to predict if the client will subscribe a term deposit. Therefore the input variables are columns representing client demographics (age, job, marital, education, default, housing, loan, contact, month, day_of_week, duration, campaign, pdays, previous, poutcome, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed) and the output variable is the y column representing has the client subscribed to a term deposit (binary Yes or No).
 
 ### Benefits of the parameter sampler chosen
 The random parameter sampler for HyperDrive supports discrete and continuous hyperparameters, as well as early termination of low-performance runs. It is simple to use, eliminates bias and increases the accuracy of the model.
