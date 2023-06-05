@@ -23,7 +23,8 @@ The pipeline architecture consists of a python training script (train.py), a tab
 ![image](https://github.com/Nikhil-Bansal19/MLE-NanoDegree/assets/47290347/dc5e5c13-f563-44cf-85e3-108ee2af82f6)
 
 ### Dataset
-The dataset was programmatically (using the train.py script) downloaded from the web, split into train and test sets using Sckit-learn train_test_split utility
+The dataset was programmatically (using the train.py script) downloaded from the web, split into train and test sets using Sckit-learn train_test_split utility.
+The Bank Marketing dataset from UCI ML Repository, contains demographic data of bank clients and their responses (Yes or No) to direct phone marketing campaigns of direct term deposit products. The classification goal is to predict if the client will subscribe a term deposit. Therefore the input variables are columns representing client demographics ( and the output variable is the y column representing has the client subscribed to a term deposit (binary Yes or No).
 
 ### Benefits of the parameter sampler chosen
 The random parameter sampler for HyperDrive supports discrete and continuous hyperparameters, as well as early termination of low-performance runs. It is simple to use, eliminates bias and increases the accuracy of the model.
